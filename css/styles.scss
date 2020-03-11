@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Sen&display=swap");
+
+$primaryfont: "Sen", sans-serif;
+$secondaryfont: "Roboto", sans-serif;
+
+.body {
+  min-height: 100vh;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-family: $primaryfont;
+
+  span {
+    color: #d65b5b;
+  }
+}
+
+.grid {
+  display: grid;
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  height: 550px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  label {
+    font-family: $primaryfont;
+    font-size: 1.4em;
+  }
+  input,
+  #generate {
+    margin-left: 15px;
+  }
+}
+
+.child {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+.x8 {
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+}
+
+.x16 {
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: auto;
+}
+
+.x32 {
+  grid-template-columns: repeat(32, 1fr);
+  grid-template-rows: auto;
+}
+
+.x64 {
+  grid-template-columns: repeat(64, 1fr);
+  grid-template-rows: auto;
+}
+
+.color {
+  background-color: black;
+}
