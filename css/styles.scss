@@ -26,6 +26,9 @@ $secondaryfont: "Roboto", sans-serif;
   transform: translate(-50%, -50%);
   width: 550px;
   height: 550px;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
 }
 
 .inputs {
@@ -40,12 +43,6 @@ $secondaryfont: "Roboto", sans-serif;
   #generate {
     margin-left: 15px;
   }
-}
-
-.child {
-  border: solid;
-  border-width: 1px;
-  border-color: black;
 }
 
 .x8 {
@@ -66,8 +63,4 @@ $secondaryfont: "Roboto", sans-serif;
 .x64 {
   grid-template-columns: repeat(64, 1fr);
   grid-template-rows: auto;
-}
-
-.color {
-  background-color: black;
 }

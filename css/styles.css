@@ -24,6 +24,9 @@
           transform: translate(-50%, -50%);
   width: 550px;
   height: 550px;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
 }
 
 .inputs {
@@ -46,12 +49,6 @@
 .inputs input,
 .inputs #generate {
   margin-left: 15px;
-}
-
-.child {
-  border: solid;
-  border-width: 1px;
-  border-color: black;
 }
 
 .x8 {
@@ -80,9 +77,5 @@
       grid-template-columns: repeat(64, 1fr);
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-}
-
-.color {
-  background-color: black;
 }
 /*# sourceMappingURL=styles.css.map */
